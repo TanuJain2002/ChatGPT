@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-String apiKey = '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';
+String apiKey = '<API KEY>';
 //head over to openai.com -> signIn/signUp -> API -> (Top right)Personal -> View API keys -> Create new Secret API key
 
 class ApiServices {
-  static String baseUrl = <API KEY>";
+  static String baseUrl = apiKey;
 
   static Map<String, String> header = {
     'Content-Type': 'application/json',
