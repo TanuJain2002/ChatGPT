@@ -6,7 +6,7 @@ String apiKey = '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';
 //head over to openai.com -> signIn/signUp -> API -> (Top right)Personal -> View API keys -> Create new Secret API key
 
 class ApiServices {
-  static String baseUrl = "https://api.openai.com/v1/completions";
+  static String baseUrl = <API KEY>";
 
   static Map<String, String> header = {
     'Content-Type': 'application/json',
